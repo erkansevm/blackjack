@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="headerwrapper">
+            <h2>BLACKJACK CASINO</h2>
+            <p>by Erkan Sevim</p>
+        </div>
+    </header>
+    <main>
+        <section class="game-area ">
+           <div class="delaer-area area">
+            <div class="point">
+               <p>Kasa</p>
+              <p>Toplam</p>
+              <p class="toplam" id="dealer-toplam">Gizli</p>
+            </div>
+            <div class="cards">
+              
+            </div>
+      
+           </div>
+           <div class="buttons">
+            <button id="basla">Basla!</button>
+            <button id="kart-al">Kart Al</button>
+            <button id="kal">Kal</button>
+
+           </div>
+           <div class="player-area area">
+            <div class="point">
+                <p>Oyuncu</p>
+                <p>Toplam</p>
+                <p class="toplam" id="player-toplam">0</p>
+              </div>
+              <div class="cards">
+           
+              </div>
+         
+           </div>
+           
+           <div class="modal " id="modal">
+            <div class="modal-header">
+                <h2 class="title" id="title">Tebrikler!</h2>
+            </div>
+    
+            <div class="modal-body">
+               <p id="text"> Lorem ipsum dolor sit, amet  </p>
+               <div class="btn-div">
+                <button data-close-button class="close-button" id="close-button">Oyna</button>
+               </div>
+            </div>
+            
+            
+        </div>
+        <div id="overlay"></div>
+    
+        </section>
+
+    </main>
+    
+    
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
